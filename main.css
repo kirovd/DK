@@ -1,0 +1,147 @@
+body{
+    background-image: url(background.jpg);
+    font-family: Lucida Console !important;
+    color: white !important;
+    
+    
+}
+
+#logo {
+    font-family: 'Vibur', cursive;
+}
+
+.contact-legend {
+    color: white !important;
+    text-align: center;
+    font-size: 50px !important;
+}
+
+.jumbotronn {
+    background-color: #FFFFFF8D !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    box-shadow: 3px !important;
+    border-radius: 5px;  
+}
+
+.jumbotronnn {
+    background-color: #FFFFFF8D !important;
+     padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    box-shadow: 3px !important;
+    border-radius: 5px;  
+}
+
+.h3 {
+    background-color: #333;
+    text-transform: uppercase!important;
+    border-radius: 15px;
+    color: white !important;
+}
+
+.p {
+    color: black !important;
+}
+
+.navbar {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    background-color: 111 !important;
+    font-family: Lucida Console;
+    font-size: 20px;
+}
+
+
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    line-height: 25px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    text-transform: uppercase !important;
+    color: white !important;
+  }
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white !important;
+    background-color: #111 !important;
+}
+
+.navbar-default {
+    background-color: #333 !important; 
+}
+
+
+li a:hover:not(.active) {
+  background-color: #111 !important;
+    color: white !important;
+}
+
+.active {
+    background-color: #111 !important;
+}
+
+.navbar-default .navbar-toggle {
+     border-color: white !important; 
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 10px !important;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #333 !important;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.icon-bar {
+    background-color: red;
+}
+
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+h5 {
+    color: black !important;
+}
+
+.btn {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    text-transform: uppercase !important;
+    border-radius: 20px !important;
+    font-size: 20px !important;
+    
+}
+
+
+.btn-secondary {
+     border-radius: 10px !important;
+}
+
+.overviewList {
+    color: black !important;
+}
+
+.overviewDescription {
+    color: black !important;
+}
+
+.logo {
+    height: 120px !important;
+    width: 300px !important;
+    padding-top: 20px !important;
+    padding-left: 20px !important;
+}
